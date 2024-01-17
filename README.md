@@ -1,21 +1,21 @@
-## Dose-Response Meta-Analysis of silica exposure and silicosis risk 
+# Dose-Response Meta-Analysis of silica exposure and silicosis risk 
 
-# Overview
+## Overview
 Welcome to the Dose-Response Meta-Analysis project! This R project aims to analyze the relationship between exposure levels and specific outcomes in "mine" and non-mine populations. The project includes the following key components:
 
-# Data Loading:
+## Data Loading:
 Please load data from the three data files in this folder: risk_complete.xlsx, risk_drma_2.xlsx and chen2.csv
 Data is loaded and prepared in the "Load data" section of the rcs_silicosis_fin script.
 Purpose: Load and explore the dataset to gain insights into the available information.
 
-# Cumulative risks comparisons:
+## Cumulative risks comparisons:
 Cumulative risks both parametric and non-parametric are compared in the "Comparison of life table cumulative risks" and "Comparison of fitted cumulative risks" headings in the rcs_silicosis_fin script
 
-# Meta-Analysis:
+## Meta-Analysis:
 A dose-response meta-analysis of the risk of silicosis at increasing silica exposures is performed in the "Dose response meta-analysis", "Miner DRMA" and "Non-Miner DRMA" sections. 
 Sensitivity analyses are performed in the "Sensitivity Analysis" section. 
 
-# Impact Analysis: 
+## Impact Analysis: 
 The absolute risk reduction is calculated in the "Impact Analysis" section.
 
 Run the scripts in the specified order to reproduce the analysis.
